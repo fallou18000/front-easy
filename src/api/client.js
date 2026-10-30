@@ -11,3 +11,6 @@ export async function api(path, options = {}) {
   if (!res.ok) throw Object.assign(new Error(data.error || 'Erreur'), { status: res.status });
   return data;
 }
+
+console.log("ENVIRONNEMENT :", import.meta.env.MODE);
+console.log("VARIABLE API :", import.meta.env.VITE_API_URL);
