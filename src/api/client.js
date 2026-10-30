@@ -12,5 +12,4 @@ export async function api(path, options = {}) {
   return data;
 }
 
-console.log("ENVIRONNEMENT :", import.meta.env.MODE);
-console.log("VARIABLE API :", import.meta.env.VITE_API_URL);
+console.log("API URL :", import.meta.env.VITE_API_URL);
