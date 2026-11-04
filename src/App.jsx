@@ -11,6 +11,7 @@ import ActivityPage from './pages/ActivityPage';
 import RelancesPage from './pages/RelancesPage';
 import ObjectifsPage from './pages/ObjectifsPage';
 import RapportsPage from './pages/RapportsPage';
+import ParametresPage from './pages/ParametresPage';
 
 
 export default function App() {
@@ -38,7 +39,7 @@ export default function App() {
           <Route path="/equipe" element={<EquipePage />} />
           <Route path="/activites" element={<ActivityPage />} />
   
-          <Route path="/parametres" element={<Bientot titre="Paramètres" />} />
+          <Route path="/parametres" element={<ParametresPage />} />
            <Route path="/relances" element={<RelancesPage />} />
         <Route path="/objectifs" element={<ObjectifsPage />} />
         <Route path="/rapports" element={<RapportsPage />} />
